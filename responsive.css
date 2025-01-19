@@ -1,0 +1,8 @@
+@media (max-width: 600px) {
+  .left_nav{
+    display: none;
+  }
+  .right_nav > button{
+    display: none;
+  }
+}
