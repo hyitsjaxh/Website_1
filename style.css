@@ -31,6 +31,7 @@ nav{
 display: inline-block;
 padding: 10px;
 border-radius: 20px;
+transition: all 0.25 ease;
 } 
 .left_nav li:hover{
   background-color: cornsilk;
@@ -44,6 +45,7 @@ ul  li > a{
 }
 .dropdown{
   display: none;
+  transition: all 1s ease;
 }
 
 .left_nav ul li:hover .dropdown{
@@ -79,6 +81,11 @@ ul  li > a{
   background-color: #7f8770;
   color: white;
   cursor: pointer;
+  transition: all 0.30s ease;
+}
+.right_nav > button:hover{
+  background-color: white;
+  color: #7f8770;
 }
 .right_nav span > i{
   font-size: 25px;
